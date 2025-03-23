@@ -1,4 +1,4 @@
-# Bonjour, je suis Élie (Malic1tus) 👋
+# Bonjour, je suis Élie 👋
 
 Je suis un **développeur full-stack** passionné par la **cybersécurité**, les **mods de jeux RPG** et les **technologies de pointe**. Je me spécialise dans la création de solutions web optimisées, évolutives et sécurisées pour les startups et les entreprises établies. 🚀
 
