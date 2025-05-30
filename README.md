@@ -12,7 +12,7 @@ Je suis un **développeur full-stack** passionné par la **cybersécurité**, le
 * **DevOps** : AWS, Azure, Pipelines CI/CD
 
 ## 💡 Ce sur quoi je travaille actuellement :
-* Développement de **SoulTech** — un mod Minecraft qui fusionne les mondes **mystiques** et **technologiques**.
+* Développement de **LostHorizon** — un mod Minecraft qui fusionne les mondes **mystiques** et **technologiques**.
 * Expansion de mon **portfolio freelance** pour le développement web et la **consultation en cybersécurité**.
 * Contribution à des projets open-source liés à la **sécurité IA** et à **l'optimisation des performances**.
 
