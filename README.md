@@ -60,18 +60,20 @@ Quand je ne code pas, vous me trouverez en train de créer des univers immersifs
 
 <div align="center">
 
-| 🎮 **LostHorizon** | 💼 **Portfolio Freelance** | 🔒 **Sécurité IA** |
+| 🎮 **LostHorizon** | 💼 **Portfolio Freelance** | 🔒 **BlackBox** |
 |:---:|:---:|:---:|
-| Mod Minecraft RPG fusionnant magie et technologie | Extension services web & cybersécurité | Contributions open-source sécurité IA |
-| `Java` `Forge` `JSON` | `React` `Node.js` `Docker` | `Python` `TensorFlow` `Security` |
+| Mod Minecraft RPG fusionnant magie et technologie | Extension services web & cybersécurité | Plateforme de chiffrement quantum-resistant |
+| `Java` `Forge` `JSON` | `React` `Node.js` `Docker` | `React` `Cryptography` `Post-Quantum` |
 
 </div>
 
 ### 🌟 Projets récents
 
-- **🔐 SecureAPI Gateway** - Passerelle API avec authentification JWT avancée et rate limiting
-- **⚡ OptimizeCore** - Framework d'optimisation des performances pour applications React
-- **🛡️ VulnScanner** - Outil de détection automatisée de vulnérabilités web
+- **🎯 BlackBox** - [Live Demo](https://blackbox-demo.vercel.app/) - Plate-forme de chiffrement de texte avancée avec des capacités de résistance quantique
+    - Prise en charge de plusieurs algorithmes : AES, ChaCha20, algorithme personnalisé, Kyber (post-quantique)
+    - Graduation de la résistance quantique de la cryptographie classique à la cryptographie post-quantique
+    - Mode furtif avec génération sécurisée de jetons (UUID, clés API)
+    - `React` `TypeScript` `Cryptographie` `Post-Quantum`
 
 ---
 
