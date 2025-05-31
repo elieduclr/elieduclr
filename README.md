@@ -1,29 +1,29 @@
-# 👋 Hey there, I'm Élie!
+# 👋 Salut, moi c'est Élie !
 
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=300&section=header&text=Full-Stack%20Developer&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Cybersecurity%20•%20Innovation%20•%20Gaming&descAlignY=55&descSize=20)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=300&section=header&text=Développeur%20Full-Stack&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Cybersécurité%20•%20Innovation%20•%20Gaming&descAlignY=55&descSize=20)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://elie-dev.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:elieducailar@gmail.com)
 
 </div>
 
-## 🚀 About Me
+## 🚀 À propos de moi
 
-Passionate about the intersection of **technology**, **security**, and **creativity**, I'm a full-stack developer who transforms complex ideas into elegant digital solutions. Specialized in building high-performance web applications and securing infrastructures, I help startups and established companies in their digital transformation journey.
+Passionné par l'intersection entre **technologie**, **sécurité** et **créativité**, je suis un développeur full-stack qui transforme des idées complexes en solutions digitales élégantes. Spécialisé dans la création d'applications web haute performance et la sécurisation d'infrastructures, j'accompagne startups et entreprises établies dans leur transformation numérique.
 
-When I'm not coding, you'll find me crafting immersive worlds in Minecraft or exploring the latest cybersecurity vulnerabilities! 🎮🔐
+Quand je ne code pas, vous me trouverez en train de créer des univers immersifs dans Minecraft ou d'explorer les dernières vulnérabilités en cybersécurité ! 🎮🔐
 
-*[🇫🇷 Version française disponible ici](./README.md)*
+*[🇬🇧 English version available here](./EN-README.md)*
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Stack Technique
 
 <div align="center">
 
-### Languages
+### Langages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -31,7 +31,7 @@ When I'm not coding, you'll find me crafting immersive worlds in Minecraft or ex
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-### Frameworks & Libraries
+### Frameworks & Librairies
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
@@ -46,7 +46,7 @@ When I'm not coding, you'll find me crafting immersive worlds in Minecraft or ex
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
-### Security & Tools
+### Sécurité & Outils
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
@@ -56,26 +56,26 @@ When I'm not coding, you'll find me crafting immersive worlds in Minecraft or ex
 
 ---
 
-## 🎯 Current Projects
+## 🎯 Projets en cours
 
 <div align="center">
 
-| 🎮 **LostHorizon** | 💼 **Freelance Portfolio** | 🔒 **AI Security** |
+| 🎮 **LostHorizon** | 💼 **Portfolio Freelance** | 🔒 **Sécurité IA** |
 |:---:|:---:|:---:|
-| Minecraft RPG mod merging magic & technology | Expanding web dev & cybersecurity services | Open-source AI security contributions |
+| Mod Minecraft RPG fusionnant magie et technologie | Extension services web & cybersécurité | Contributions open-source sécurité IA |
 | `Java` `Forge` `JSON` | `React` `Node.js` `Docker` | `Python` `TensorFlow` `Security` |
 
 </div>
 
-### 🌟 Recent Projects
+### 🌟 Projets récents
 
-- **🔐 SecureAPI Gateway** - API gateway with advanced JWT authentication and rate limiting
-- **⚡ OptimizeCore** - Performance optimization framework for React applications
-- **🛡️ VulnScanner** - Automated web vulnerability detection tool
+- **🔐 SecureAPI Gateway** - Passerelle API avec authentification JWT avancée et rate limiting
+- **⚡ OptimizeCore** - Framework d'optimisation des performances pour applications React
+- **🛡️ VulnScanner** - Outil de détection automatisée de vulnérabilités web
 
 ---
 
-## 📈 GitHub Statistics
+## 📈 Statistiques GitHub
 
 <div align="center">
 
@@ -88,11 +88,11 @@ When I'm not coding, you'll find me crafting immersive worlds in Minecraft or ex
 
 ---
 
-## 🎓 Continuous Learning
+## 🎓 Apprentissage continu
 
 ```mermaid
 graph LR
-    A[🔬 Quantum Computing] --> B[🔐 Post-Quantum Cryptography]
+    A[🔬 Informatique Quantique] --> B[🔐 Post-Quantum Cryptography]
     C[🎮 Game Development] --> D[🏗️ Minecraft Modding]
     E[🤖 AI Security] --> F[🛡️ Adversarial ML]
     B --> G[🚀 Innovation]
@@ -100,11 +100,11 @@ graph LR
     F --> G
 ```
 
-### 📚 Current Focus
-- **Post-quantum cryptography** and its impact on modern security
-- **Game development** with focus on Minecraft/Forge ecosystem
-- **Artificial intelligence** applied to threat detection
-- **Performance optimization** for high-load web applications
+### 📚 Focus actuel
+- **Cryptographie post-quantique** et son impact sur la sécurité moderne
+- **Développement de jeux** avec un focus sur l'écosystème Minecraft/Forge
+- **Intelligence artificielle** appliquée à la détection de menaces
+- **Optimisation des performances** pour applications web haute charge
 
 ---
 
@@ -112,7 +112,7 @@ graph LR
 
 <div align="center">
 
-| Cybersecurity | Development | Cloud & DevOps |
+| Cybersécurité | Développement | Cloud & DevOps |
 |:---:|:---:|:---:|
 | 🎯 Penetration Testing | ⚡ Performance Optimization | ☁️ Cloud Architecture |
 | 🔐 Ethical Hacking | 🎨 UI/UX Implementation | 🔄 CI/CD Pipelines |
@@ -122,20 +122,20 @@ graph LR
 
 ---
 
-## 💬 Let's Collaborate!
+## 💬 Collaborons ensemble !
 
-I'm always open to **new opportunities**, **innovative projects**, and **collaborations** that push the boundaries of technology. Whether you need help with:
+Je suis toujours ouvert aux **nouvelles opportunités**, aux **projets innovants** et aux **collaborations** qui poussent les limites de la technologie. Que vous ayez besoin d'aide pour :
 
-- 🚀 Building modern web applications
-- 🔒 Securing your infrastructure
-- 🎮 Creating unique gaming experiences
-- 🤖 Integrating AI into your solutions
+- 🚀 Développer une application web moderne
+- 🔒 Sécuriser votre infrastructure
+- 🎮 Créer des expériences de jeu uniques
+- 🤖 Intégrer l'IA dans vos solutions
 
-Feel free to reach out!
+N'hésitez pas à me contacter !
 
 <div align="center">
 
-### 📫 Let's Connect
+### 📫 Restons connectés
 
 [![Email](https://img.shields.io/badge/📧%20Email-elieducailar@gmail.com-red?style=for-the-badge)](mailto:elieducailar@gmail.com)
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-elie--dev.vercel.app-blue?style=for-the-badge)](https://elie-dev.vercel.app/)
@@ -144,6 +144,6 @@ Feel free to reach out!
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer)
 
-⭐ **If you find my projects interesting, feel free to give them a star!** ⭐
+⭐ **Si mes projets vous intéressent, n'hésitez pas à laisser une étoile !** ⭐
 
 </div>
