@@ -25,9 +25,9 @@ jobs:
         env:
           TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git config --global user.name "Elie Duclerq (bot)"
+          git config --global user.name "Elie du CAILAR (bot)"
           git config --global user.email "elieduclr@users.noreply.github.com"
-          git remote set-url origin https://elieduclr:${TOKEN}@github.com/elieduclr/elieduclr.git
+          git remote set-url origin https://x-access-token:${TOKEN}@github.com/elieduclr/elieduclr.git
           git add README.md
           git commit -m "🔄 Update stats images timestamp" || echo "No changes to commit"
           git push
