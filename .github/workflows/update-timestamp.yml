@@ -18,13 +18,9 @@ jobs:
         # Get current timestamp
         TIMESTAMP=$(date +%s)
         
-        # Update all instances of &t=initial or ?t=initial with the new timestamp
-        sed -i -E "s/(github-readme-stats\.vercel\.app\/api[^\"]*)([?&]t=)[^\"]*/&\&t=$TIMESTAMP/g" README.md
-        sed -i -E "s/(streak-stats\.demolab\.com[^\"]*)([?&]t=)[^\"]*/&\&t=$TIMESTAMP/g" README.md
-        
-        # For cases where t is the first parameter
-        sed -i -E "s/(github-readme-stats\.vercel\.app\/api[^\"]*)\?t=[^\&"]*/&\?t=$TIMESTAMP/g" README.md
-        sed -i -E "s/(streak-stats\.demolab\.com[^\"]*)\?t=[^\&"]*/&\?t=$TIMESTAMP/g" README.md
+        # Update all instances of t=initial with the new timestamp
+        sed -i -E "s/(github-readme-stats\.vercel\.app\/api[^\"&?]*)(\?|\&)t=[^\"&]*/\1\2t=$TIMESTAMP/g" README.md
+        sed -i -E "s/(streak-stats\.demolab\.com[^\"&?]*)(\?|\&)t=[^\"&]*/\1\2t=$TIMESTAMP/g" README.md
 
     - name: Commit and push changes
       run: |
