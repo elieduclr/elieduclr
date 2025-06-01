@@ -64,10 +64,10 @@ When I'm not coding, you'll find me crafting immersive worlds in Minecraft or ex
 
 <div align="center">
 
-| 🎮 **LostHorizon** | 💼 **Freelance Portfolio** | 🔒 **BlackBox** |
+| 🎮 **LostHorizon** | 💼 **Awesome Readme Templates** | 🔒 **BlackBox** |
 |:---:|:---:|:---:|
-| Minecraft RPG mod merging magic & technology | Expanding web dev & cybersecurity services | Quantum-resistant encryption platform |
-| `Java` `Forge` `JSON` | `React` `Node.js` `Docker` | `React` `Cryptography` `Post-Quantum` |
+| Minecraft RPG mod merging magic & technology | Readme templates for github profiles | Quantum-resistant encryption platform |
+| `Java` `Forge` `JSON` | `Markdown` | `React` `Cryptography` `Post-Quantum` |
 
 </div>
 
@@ -79,18 +79,24 @@ When I'm not coding, you'll find me crafting immersive worlds in Minecraft or ex
     -   Stealth mode with secure token generation (UUID, API keys)
     -   `React` `TypeScript` `Cryptography` `Post-Quantum`
 
+- **📜 Awesome README Templates** - [Project](https://github.com/elieduclr/Awesome-Readme-Templates) - Collection of professional README templates
+    - Support for multiple profiles: Beginners, Professionals, Creatives, Technical Specialists
+    - Graduated complexity from simple templates to advanced designs
+    - Quick Start mode with step-by-step customization guides
+    - `Markdown` `GitHub` `Badges` `Mermaid` `Portfolio`
+
 ---
 
 ## 📈 GitHub Statistics
 
 <div align="center">
 
-<!--STATS-TIMESTAMP:1748787523-->
+<!--STATS-TIMESTAMP:1748776635-->
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=elieduclr&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&v=<!--STATS-TIMESTAMP:1748787523-->" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elieduclr&theme=tokyonight&layout=compact&hide_border=true&v=<!--STATS-TIMESTAMP:1748787523-->" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=elieduclr&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&v=<!--STATS-TIMESTAMP:1748776635-->" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elieduclr&theme=tokyonight&layout=compact&hide_border=true&v=<!--STATS-TIMESTAMP:1748776635-->" />
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=elieduclr&theme=tokyonight&hide_border=true&v=<!--STATS-TIMESTAMP:1748787523-->)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=elieduclr&theme=tokyonight&hide_border=true&v=<!--STATS-TIMESTAMP:1748776635-->)](https://git.io/streak-stats)
 
 </div>
 
