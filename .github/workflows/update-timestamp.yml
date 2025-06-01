@@ -1,0 +1,30 @@
+name: Update GitHub profile stats images
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Tous les jours à 6h UTC
+  workflow_dispatch:
+
+jobs:
+  update-images:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Update image URLs with new timestamp
+        run: |
+          TIMESTAMP=$(date +%s)
+
+          sed -i 's|https://github-readme-stats.vercel.app/api?username=elieduclr\([^")]*\)|https://github-readme-stats.vercel.app/api?username=elieduclr\1\&t='"$TIMESTAMP"'|g' README.md
+          sed -i 's|https://github-readme-stats.vercel.app/api/top-langs/\?username=elieduclr\([^")]*\)|https://github-readme-stats.vercel.app/api/top-langs/?username=elieduclr\1\&t='"$TIMESTAMP"'|g' README.md
+          sed -i 's|https://streak-stats.demolab.com/\?user=elieduclr\([^")]*\)|https://streak-stats.demolab.com/?user=elieduclr\1\&t='"$TIMESTAMP"'|g' README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🔄 Update stats images timestamp" || echo "No changes to commit"
+          git push
