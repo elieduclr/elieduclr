@@ -1,47 +1,29 @@
-name: Update GitHub Stats Timestamp
+name: 🔄 Update README timestamp
 
 on:
   schedule:
     - cron: '0 * * * *' # Toutes les heures
-  workflow_dispatch:
-
-permissions:
-  contents: write # Nécessaire pour pousser les modifications
+  workflow_dispatch:     # Permet de le lancer manuellement
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        persist-credentials: false # Important pour les permissions
+      - name: 📥 Clone repo
+        uses: actions/checkout@v3
 
-    - name: Update timestamp in README
-      run: |
-        # Debug: Afficher le contenu avant modification
-        echo "=== BEFORE ==="
-        cat README.md
-        
-        # Get current timestamp
-        TIMESTAMP=$(date +%s)
-        echo "Updating with timestamp: $TIMESTAMP"
-        
-        # Version plus simple et robuste des commandes sed
-        sed -i "s/\(github-readme-stats\.vercel\.app[^\"?]*\)[?&]t=[^\"&]*/\1?t=$TIMESTAMP/g" README.md
-        sed -i "s/\(streak-stats\.demolab\.com[^\"?]*\)[?&]t=[^\"&]*/\1?t=$TIMESTAMP/g" README.md
-        
-        # Debug: Afficher le contenu après modification
-        echo "=== AFTER ==="
-        cat README.md
+      - name: 🕒 Generate current timestamp
+        run: echo "NOW=$(date +%s)" >> $GITHUB_ENV
 
-    - name: Commit and push changes
-      run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add README.md
-        
-        # Toujours créer un commit même si le contenu est identique (pour forcer le refresh)
-        git commit --allow-empty -m "Force stats refresh [skip ci]"
-        git push
+      - name: ✏️ Update README.md with new timestamp
+        run: |
+          sed -i "s/t=[0-9a-zA-Z]\+/t=${NOW}/g" README.md
+
+      - name: 📤 Commit and push if changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md
+          git commit -m "🔄 Update README timestamp ($(date))" || echo "No changes to commit"
+          git push
