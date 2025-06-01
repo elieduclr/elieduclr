@@ -91,12 +91,12 @@ When I'm not coding, you'll find me crafting immersive worlds in Minecraft or ex
 
 <div align="center">
 
-<!--STATS-TIMESTAMP:1748791275-->
+<!--STATS-TIMESTAMP:1748795173-->
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=elieduclr&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&v=<!--STATS-TIMESTAMP:1748791275-->" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elieduclr&theme=tokyonight&layout=compact&hide_border=true&v=<!--STATS-TIMESTAMP:1748791275-->" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=elieduclr&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&v=<!--STATS-TIMESTAMP:1748795173-->" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elieduclr&theme=tokyonight&layout=compact&hide_border=true&v=<!--STATS-TIMESTAMP:1748795173-->" />
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=elieduclr&theme=tokyonight&hide_border=true&v=<!--STATS-TIMESTAMP:1748791275-->)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=elieduclr&theme=tokyonight&hide_border=true&v=<!--STATS-TIMESTAMP:1748795173-->)](https://git.io/streak-stats)
 
 </div>
 
