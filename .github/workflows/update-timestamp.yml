@@ -21,7 +21,7 @@ jobs:
 
       - name: ✏️ Update README.md with new timestamp
         run: |
-          sed -i "s/t=[0-9a-zA-Z]\+/t=${NOW}/g" README.md
+          sed -i "s/t=[0-9a-zA-Z]\+/timestamp=${NOW}/g" README.md
 
       - name: 📤 Commit and push if changes
         run: |
