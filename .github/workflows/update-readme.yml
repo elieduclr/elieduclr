@@ -18,6 +18,7 @@ jobs:
         run: |
           TIMESTAMP=$(date +%s)
           sed -i 's/\(<!--STATS-TIMESTAMP:\)[0-9]*\(-->\)/\1'"$TIMESTAMP"'\2/' README.md
+          sed -i 's/\(<!--STATS-TIMESTAMP:\)[0-9]*\(-->\)/\1'"$TIMESTAMP"'\2/' EN-README.md
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
