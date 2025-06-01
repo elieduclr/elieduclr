@@ -1,0 +1,22 @@
+name: Refresh README stats cache
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Toutes les heures
+  workflow_dispatch: # Permet de lancer manuellement
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README with current timestamp
+        run: |
+          TIMESTAMP=$(date +%s)
+          sed -i 's/\(<!--STATS-TIMESTAMP:\)[0-9]*\(-->\)/\1'"$TIMESTAMP"'\2/' README.md
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: refresh stats timestamp'
