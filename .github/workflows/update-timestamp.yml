@@ -21,10 +21,13 @@ jobs:
           sed -i 's|https://github-readme-stats.vercel.app/api/top-langs/\?username=elieduclr\([^")]*\)|https://github-readme-stats.vercel.app/api/top-langs/?username=elieduclr\1\&t='"$TIMESTAMP"'|g' README.md
           sed -i 's|https://streak-stats.demolab.com/\?user=elieduclr\([^")]*\)|https://streak-stats.demolab.com/?user=elieduclr\1\&t='"$TIMESTAMP"'|g' README.md
 
-      - name: Commit and push changes
+      - name: Push changes using PAT
+        env:
+          TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "Elie Duclerq (bot)"
+          git config --global user.email "elieduclr@users.noreply.github.com"
+          git remote set-url origin https://elieduclr:${TOKEN}@github.com/elieduclr/elieduclr.git
           git add README.md
           git commit -m "🔄 Update stats images timestamp" || echo "No changes to commit"
           git push
