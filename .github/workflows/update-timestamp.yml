@@ -3,7 +3,10 @@ name: Update GitHub Stats Timestamp
 on:
   schedule:
     - cron: '0 * * * *' # Toutes les heures
-  workflow_dispatch: # Permet de déclencher manuellement
+  workflow_dispatch:
+
+permissions:
+  contents: write # Nécessaire pour pousser les modifications
 
 jobs:
   update-readme:
@@ -12,19 +15,33 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
+      with:
+        persist-credentials: false # Important pour les permissions
 
     - name: Update timestamp in README
       run: |
+        # Debug: Afficher le contenu avant modification
+        echo "=== BEFORE ==="
+        cat README.md
+        
         # Get current timestamp
         TIMESTAMP=$(date +%s)
+        echo "Updating with timestamp: $TIMESTAMP"
         
-        # Update all instances of t=initial with the new timestamp
-        sed -i -E "s/(github-readme-stats\.vercel\.app\/api[^\"&?]*)(\?|\&)t=[^\"&]*/\1\2t=$TIMESTAMP/g" README.md
-        sed -i -E "s/(streak-stats\.demolab\.com[^\"&?]*)(\?|\&)t=[^\"&]*/\1\2t=$TIMESTAMP/g" README.md
+        # Version plus simple et robuste des commandes sed
+        sed -i "s/\(github-readme-stats\.vercel\.app[^\"?]*\)[?&]t=[^\"&]*/\1?t=$TIMESTAMP/g" README.md
+        sed -i "s/\(streak-stats\.demolab\.com[^\"?]*\)[?&]t=[^\"&]*/\1?t=$TIMESTAMP/g" README.md
+        
+        # Debug: Afficher le contenu après modification
+        echo "=== AFTER ==="
+        cat README.md
 
     - name: Commit and push changes
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add README.md
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Update stats timestamp [skip ci]" && git push)
+        
+        # Toujours créer un commit même si le contenu est identique (pour forcer le refresh)
+        git commit --allow-empty -m "Force stats refresh [skip ci]"
+        git push
