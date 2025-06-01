@@ -85,12 +85,12 @@ Quand je ne code pas, vous me trouverez en train de créer des univers immersifs
 
 <div align="center">
 
-<!--STATS-TIMESTAMP:1748776635-->
+<!--STATS-TIMESTAMP:1748781713-->
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=elieduclr&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&v=<!--STATS-TIMESTAMP:1748776635-->" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elieduclr&theme=tokyonight&layout=compact&hide_border=true&v=<!--STATS-TIMESTAMP:1748776635-->" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=elieduclr&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&v=<!--STATS-TIMESTAMP:1748781713-->" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elieduclr&theme=tokyonight&layout=compact&hide_border=true&v=<!--STATS-TIMESTAMP:1748781713-->" />
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=elieduclr&theme=tokyonight&hide_border=true&v=<!--STATS-TIMESTAMP:1748776635-->)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=elieduclr&theme=tokyonight&hide_border=true&v=<!--STATS-TIMESTAMP:1748781713-->)](https://git.io/streak-stats)
 
 </div>
 
