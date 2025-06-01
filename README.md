@@ -6,7 +6,7 @@
 
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorListimestamp=1748772864&heightimestamp=1748772864&section=header&textimestamp=1748772864éveloppeur%20Full-Stack&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Cybersécurité%20•%20Innovation%20•%20Gaming&descAlignY=55&descSize=20)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=300&section=header&text=Développeur%20Full-Stack&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Cybersécurité%20•%20Innovation%20•%20Gaming&descAlignY=55&descSize=20)
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://elie-dev.vercel.app/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:elieducailar@gmail.com)
@@ -85,10 +85,10 @@ Quand je ne code pas, vous me trouverez en train de créer des univers immersifs
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=elieduclr&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&timestamp=initial"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elieduclr&theme=tokyonight&layoutimestamp=1748772864&hide_border=true&timestamp=initial"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=elieduclr&theme=tokyonight&show_icons=true&hide_border=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elieduclr&theme=tokyonight&layout=compact&hide_border=true"/>
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=elieduclr&theme=tokyonight&hide_border=true&timestamp=initial)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=elieduclr&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
@@ -148,7 +148,7 @@ N'hésitez pas à me contacter !
 
 ---
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorListimestamp=1748772864&heightimestamp=1748772864&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer)
 
 ⭐ **Si mes projets vous intéressent, n'hésitez pas à laisser une étoile !** ⭐
 
