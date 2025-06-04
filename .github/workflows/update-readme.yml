@@ -2,7 +2,7 @@ name: Refresh README stats cache
 
 on:
   schedule:
-    - cron: '0 * * * *' # Toutes les heures
+    - cron: '0 0 * * *' # Tous les jours à minuit
   workflow_dispatch: # Permet de lancer manuellement
 
 permissions:
