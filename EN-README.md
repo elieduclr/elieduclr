@@ -1,5 +1,5 @@
 <!-- meta -->
-<meta name="keywords" content="développeur fullstack, cybersécurité, react, python, portfolio, ethical hacking, dev, web dev">
+<meta name="keywords" content="développeur fullstack, cybersécurité, react, python, portfolio, ethical hacking, dev, web dev, minecraft">
 <meta name="author" content="Élie du Cailar">
 
 # 👋 Hey there, I'm Élie!
